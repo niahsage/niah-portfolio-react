@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/niah-portfolio-react">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
