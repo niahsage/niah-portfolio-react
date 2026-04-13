@@ -1,0 +1,22 @@
+.footer {
+  padding: 32px 20px;
+  text-align: center;
+  border-top: 1px solid rgba(47, 42, 38, 0.08);
+  margin-top: 70px;
+}
+
+.footer-links {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  transition: opacity 0.3s ease;
+}
+
+.footer-links a:hover {
+  opacity: 0.65;
+}
